@@ -1,1 +1,71 @@
 [2025-12-10 01:09:49,436 : INFO  : main : logger is working perfectly...]
+[2025-12-11 00:12:43,503 : ERROR  : 4040370296 : Config file not found at: /src/datascience/config/config.yaml]
+[2025-12-11 00:12:43,511 : INFO  : 4040370296 : Current working directory: /]
+[2025-12-11 00:22:29,598 : INFO  : common : yaml file: /Users/adarshkumar/Projects/Datasci/DataScience_project/config/config.yaml loaded successfully]
+[2025-12-11 00:24:23,094 : INFO  : common : yaml file: /Users/adarshkumar/Projects/Datasci/DataScience_project/config/config.yaml loaded successfully]
+[2025-12-11 00:27:09,423 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-11 00:27:09,425 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-11 00:27:09,426 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-11 00:27:09,427 : INFO  : common : created directory at: artifacts]
+[2025-12-11 00:27:09,427 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-11 00:29:07,180 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-11 00:29:07,181 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-11 00:29:07,182 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-11 00:29:07,182 : INFO  : common : created directory at: artifacts]
+[2025-12-11 00:29:07,183 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-11 00:32:55,416 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-11 00:32:55,418 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-11 00:32:55,419 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-11 00:32:55,420 : INFO  : common : created directory at: artifacts]
+[2025-12-11 00:32:55,420 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-11 00:49:52,208 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-11 00:49:52,211 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-11 00:49:52,212 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-11 00:49:52,213 : INFO  : common : created directory at: artifacts]
+[2025-12-11 00:49:52,214 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-11 00:49:52,216 : INFO  : 2856810451 : File already exists of path: artifacts/data_ingestion/data.zip]
+[2025-12-11 00:53:11,237 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-11 00:53:11,240 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-11 00:53:11,241 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-11 00:53:11,242 : INFO  : common : created directory at: artifacts]
+[2025-12-11 00:53:11,244 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-11 00:53:11,245 : INFO  : 2856810451 : File already exists of path: artifacts/data_ingestion/data.zip]
+[2025-12-11 00:53:19,573 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-11 00:53:19,574 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-11 00:53:19,575 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-11 00:53:19,575 : INFO  : common : created directory at: artifacts]
+[2025-12-11 00:53:19,577 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-11 00:53:19,579 : INFO  : 2856810451 : File already exists of path: artifacts/data_ingestion/data.zip]
+[2025-12-11 00:56:43,231 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-11 00:56:43,233 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-11 00:56:43,234 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-11 00:56:43,236 : INFO  : common : created directory at: artifacts]
+[2025-12-11 00:56:43,237 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-11 00:56:44,355 : INFO  : 2856810451 : artifacts/data_ingestion/data.zip downloaded with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8D97:A0972:EE7BD:1BB263:6939C970
+Accept-Ranges: bytes
+Date: Wed, 10 Dec 2025 19:26:44 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830054-CCU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1765394804.086293,VS0,VE284
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e0934debbf7e433e7b33e11d5fe5e6f12841a2bb
+Expires: Wed, 10 Dec 2025 19:31:44 GMT
+Source-Age: 0
+
+]
+[2025-12-11 00:56:44,360 : INFO  : 2856810451 : File extracted at : artifacts/data_ingestion/unziped_data]
