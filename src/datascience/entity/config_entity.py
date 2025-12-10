@@ -1,0 +1,12 @@
+from pathlib import Path
+from dataclasses import dataclass
+from src.datascience.utils.common import read_yaml, create_directories
+from src.datascience.constants import *
+
+
+@dataclass
+class DataIngestionConfig:
+    root_dir: Path
+    source_URL:str
+    local_data_file:Path
+    unzip_dir:Path
