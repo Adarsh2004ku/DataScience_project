@@ -87,3 +87,126 @@ Source-Age: 0
 [2025-12-11 01:32:11,389 : INFO  : main : >>>>>> Stage Data Ingestion Stage completed <<<<<<
 
 ]
+[2025-12-15 22:34:06,214 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-15 22:34:06,220 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-15 22:34:06,222 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-15 22:34:06,224 : INFO  : common : created directory at: artifacts]
+[2025-12-15 22:35:45,524 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-15 22:35:45,526 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-15 22:35:45,528 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-15 22:35:45,529 : INFO  : common : created directory at: artifacts]
+[2025-12-15 22:35:45,530 : INFO  : common : created directory at: artifacts/data_validation]
+[2025-12-15 22:36:07,511 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-15 22:36:07,513 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-15 22:36:07,515 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-15 22:36:07,517 : INFO  : common : created directory at: artifacts]
+[2025-12-15 22:36:07,519 : INFO  : common : created directory at: artifacts/data_validation]
+[2025-12-15 22:38:30,642 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-15 22:38:30,645 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-15 22:38:30,648 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-15 22:38:30,649 : INFO  : common : created directory at: artifacts]
+[2025-12-15 22:38:30,650 : INFO  : common : created directory at: artifacts/data_validation]
+[2025-12-15 22:38:34,516 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-15 22:38:34,517 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-15 22:38:34,520 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-15 22:38:34,520 : INFO  : common : created directory at: artifacts]
+[2025-12-15 22:38:34,521 : INFO  : common : created directory at: artifacts/data_validation]
+[2025-12-15 22:40:32,762 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-15 22:40:32,766 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-15 22:40:32,769 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-15 22:40:32,770 : INFO  : common : created directory at: artifacts]
+[2025-12-15 22:40:32,771 : INFO  : common : created directory at: artifacts/data_validation]
+[2025-12-15 23:09:45,750 : INFO  : main : >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2025-12-15 23:09:45,751 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-15 23:09:45,752 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-15 23:09:45,753 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-15 23:09:45,754 : INFO  : common : created directory at: artifacts]
+[2025-12-15 23:09:45,754 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-15 23:09:45,754 : INFO  : data_ingestion : File already exists of path: artifacts/data_ingestion/data.zip]
+[2025-12-15 23:09:45,756 : INFO  : data_ingestion : File extracted at : artifacts/data_ingestion/unziped_data]
+[2025-12-15 23:09:45,756 : INFO  : main : >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+]
+[2025-12-15 23:09:45,756 : INFO  : main : >>>>>> stageModel validation Stage started <<<<<]
+[2025-12-15 23:11:25,474 : INFO  : main : >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2025-12-15 23:11:25,475 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-15 23:11:25,476 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-15 23:11:25,477 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-15 23:11:25,477 : INFO  : common : created directory at: artifacts]
+[2025-12-15 23:11:25,477 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-15 23:11:25,478 : INFO  : data_ingestion : File already exists of path: artifacts/data_ingestion/data.zip]
+[2025-12-15 23:11:25,479 : INFO  : data_ingestion : File extracted at : artifacts/data_ingestion/unziped_data]
+[2025-12-15 23:11:25,479 : INFO  : main : >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+]
+[2025-12-15 23:11:25,479 : INFO  : main : >>>>>> stageModel validation Stage started <<<<<]
+[2025-12-15 23:14:26,183 : INFO  : main : >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2025-12-15 23:14:26,185 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-15 23:14:26,186 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-15 23:14:26,187 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-15 23:14:26,188 : INFO  : common : created directory at: artifacts]
+[2025-12-15 23:14:26,188 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-15 23:14:26,188 : INFO  : data_ingestion : File already exists of path: artifacts/data_ingestion/data.zip]
+[2025-12-15 23:14:26,190 : INFO  : data_ingestion : File extracted at : artifacts/data_ingestion/unziped_data]
+[2025-12-15 23:14:26,190 : INFO  : main : >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+]
+[2025-12-15 23:14:26,190 : INFO  : main : >>>>>> stage Data Validation stage started <<<<<<]
+[2025-12-15 23:14:26,191 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-15 23:14:26,191 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-15 23:14:26,192 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-15 23:14:26,192 : INFO  : common : created directory at: artifacts]
+[2025-12-15 23:14:26,192 : ERROR  : main : 'ConfigurationManager' object has no attribute 'schema']
+Traceback (most recent call last):
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/main.py", line 23, in <module>
+    data_ingestion.initiate_data_validation()
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/src/datascience/pipeline/data_validation_pipeline.py", line 13, in initiate_data_validation
+    data_validation_config = config.get_data_validation_config()
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/src/datascience/config/configuration.py", line 37, in get_data_validation_config
+    schema = self.schema.COLUMNS
+AttributeError: 'ConfigurationManager' object has no attribute 'schema'
+[2025-12-15 23:15:50,067 : INFO  : main : >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2025-12-15 23:15:50,068 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-15 23:15:50,069 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-15 23:15:50,070 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-15 23:15:50,070 : INFO  : common : created directory at: artifacts]
+[2025-12-15 23:15:50,070 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-15 23:15:50,070 : INFO  : data_ingestion : File already exists of path: artifacts/data_ingestion/data.zip]
+[2025-12-15 23:15:50,072 : INFO  : data_ingestion : File extracted at : artifacts/data_ingestion/unziped_data]
+[2025-12-15 23:15:50,072 : INFO  : main : >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+]
+[2025-12-15 23:15:50,072 : INFO  : main : >>>>>> stage Data Validation stage started <<<<<<]
+[2025-12-15 23:15:50,073 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-15 23:15:50,074 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-15 23:15:50,075 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-15 23:15:50,075 : INFO  : common : created directory at: artifacts]
+[2025-12-15 23:15:50,075 : ERROR  : main : 'ConfigurationManager' object has no attribute 'schema']
+Traceback (most recent call last):
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/main.py", line 23, in <module>
+    data_ingestion.initiate_data_validation()
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/src/datascience/pipeline/data_validation_pipeline.py", line 13, in initiate_data_validation
+    data_validation_config = config.get_data_validation_config()
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/src/datascience/config/configuration.py", line 37, in get_data_validation_config
+    schema = self.schema.COLUMNS
+AttributeError: 'ConfigurationManager' object has no attribute 'schema'
+[2025-12-15 23:17:18,244 : INFO  : main : >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2025-12-15 23:17:18,245 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-15 23:17:18,246 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-15 23:17:18,247 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-15 23:17:18,247 : INFO  : common : created directory at: artifacts]
+[2025-12-15 23:17:18,247 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-15 23:17:18,247 : INFO  : data_ingestion : File already exists of path: artifacts/data_ingestion/data.zip]
+[2025-12-15 23:17:18,249 : INFO  : data_ingestion : File extracted at : artifacts/data_ingestion/unziped_data]
+[2025-12-15 23:17:18,249 : INFO  : main : >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+]
+[2025-12-15 23:17:18,249 : INFO  : main : >>>>>> stage Data Validation stage started <<<<<<]
+[2025-12-15 23:17:18,250 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-15 23:17:18,250 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-15 23:17:18,251 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-15 23:17:18,251 : INFO  : common : created directory at: artifacts]
+[2025-12-15 23:17:18,252 : INFO  : common : created directory at: artifacts/data_validation]
+[2025-12-15 23:17:18,257 : INFO  : main : >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
