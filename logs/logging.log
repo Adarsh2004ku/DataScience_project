@@ -321,3 +321,298 @@ x==========x]
 [2025-12-16 00:28:50,731 : INFO  : main : >>>>>> stage Model Trainer stage completed <<<<<<
 
 x==========x]
+[2025-12-16 00:42:44,586 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 00:42:44,591 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 00:42:44,593 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 00:42:44,595 : INFO  : common : created directory at: artifacts]
+[2025-12-16 00:42:44,596 : INFO  : common : created directory at: artifacts/model_trainer]
+[2025-12-16 00:45:38,871 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 00:45:38,879 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 00:45:38,881 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 00:45:38,882 : INFO  : common : created directory at: artifacts]
+[2025-12-16 00:45:38,882 : INFO  : common : created directory at: artifacts/model_evaluation]
+[2025-12-16 00:45:40,292 : INFO  : common : json file saved at: artifacts/model_evaluation/metrics.json]
+[2025-12-16 01:36:01,220 : INFO  : main : >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2025-12-16 01:36:01,222 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:36:01,223 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:36:01,224 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:36:01,225 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:36:01,225 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-16 01:36:01,225 : INFO  : data_ingestion : File already exists of path: artifacts/data_ingestion/data.zip]
+[2025-12-16 01:36:01,228 : INFO  : data_ingestion : File extracted at : artifacts/data_ingestion/unziped_data]
+[2025-12-16 01:36:01,228 : INFO  : main : >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+]
+[2025-12-16 01:36:01,228 : INFO  : main : >>>>>> stage Data Validation stage started <<<<<<]
+[2025-12-16 01:36:01,231 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:36:01,234 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:36:01,235 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:36:01,235 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:36:01,235 : INFO  : common : created directory at: artifacts/data_validation]
+[2025-12-16 01:36:01,241 : INFO  : main : >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:36:01,241 : INFO  : main : >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-12-16 01:36:01,243 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:36:01,243 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:36:01,244 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:36:01,244 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:36:01,244 : INFO  : common : created directory at: artifacts/data_transformation]
+[2025-12-16 01:36:01,244 : INFO  : main : >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:36:01,244 : INFO  : main : >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-12-16 01:36:01,246 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:36:01,246 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:36:01,247 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:36:01,247 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:36:01,247 : INFO  : common : created directory at: artifacts/model_trainer]
+[2025-12-16 01:36:01,258 : INFO  : main : >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:39:20,174 : INFO  : main : >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2025-12-16 01:39:20,176 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:39:20,177 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:39:20,178 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:39:20,178 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:39:20,178 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-16 01:39:20,178 : INFO  : data_ingestion : File already exists of path: artifacts/data_ingestion/data.zip]
+[2025-12-16 01:39:20,181 : INFO  : data_ingestion : File extracted at : artifacts/data_ingestion/unziped_data]
+[2025-12-16 01:39:20,181 : INFO  : main : >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+]
+[2025-12-16 01:39:20,181 : INFO  : main : >>>>>> stage Data Validation stage started <<<<<<]
+[2025-12-16 01:39:20,182 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:39:20,183 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:39:20,184 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:39:20,184 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:39:20,184 : INFO  : common : created directory at: artifacts/data_validation]
+[2025-12-16 01:39:20,189 : INFO  : main : >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:39:20,189 : INFO  : main : >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-12-16 01:39:20,191 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:39:20,191 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:39:20,192 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:39:20,192 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:39:20,192 : INFO  : common : created directory at: artifacts/data_transformation]
+[2025-12-16 01:39:20,192 : INFO  : main : >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:39:20,192 : INFO  : main : >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-12-16 01:39:20,193 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:39:20,194 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:39:20,195 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:39:20,195 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:39:20,195 : INFO  : common : created directory at: artifacts/model_trainer]
+[2025-12-16 01:39:20,205 : INFO  : main : >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:43:42,030 : INFO  : main : >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2025-12-16 01:43:42,031 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:43:42,033 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:43:42,034 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:43:42,034 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:43:42,034 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-16 01:43:42,034 : INFO  : data_ingestion : File already exists of path: artifacts/data_ingestion/data.zip]
+[2025-12-16 01:43:42,036 : INFO  : data_ingestion : File extracted at : artifacts/data_ingestion/unziped_data]
+[2025-12-16 01:43:42,036 : INFO  : main : >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+]
+[2025-12-16 01:43:42,036 : INFO  : main : >>>>>> stage Data Validation stage started <<<<<<]
+[2025-12-16 01:43:42,038 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:43:42,038 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:43:42,039 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:43:42,039 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:43:42,039 : INFO  : common : created directory at: artifacts/data_validation]
+[2025-12-16 01:43:42,045 : INFO  : main : >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:43:42,045 : INFO  : main : >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-12-16 01:43:42,047 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:43:42,047 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:43:42,049 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:43:42,049 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:43:42,049 : INFO  : common : created directory at: artifacts/data_transformation]
+[2025-12-16 01:43:42,049 : INFO  : main : >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:43:42,049 : INFO  : main : >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-12-16 01:43:42,050 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:43:42,051 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:43:42,052 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:43:42,052 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:43:42,052 : INFO  : common : created directory at: artifacts/model_trainer]
+[2025-12-16 01:43:42,066 : INFO  : main : >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:44:43,771 : INFO  : main : >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2025-12-16 01:44:43,773 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:44:43,774 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:44:43,775 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:44:43,775 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:44:43,775 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-16 01:44:43,775 : INFO  : data_ingestion : File already exists of path: artifacts/data_ingestion/data.zip]
+[2025-12-16 01:44:43,777 : INFO  : data_ingestion : File extracted at : artifacts/data_ingestion/unziped_data]
+[2025-12-16 01:44:43,777 : INFO  : main : >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+]
+[2025-12-16 01:44:43,777 : INFO  : main : >>>>>> stage Data Validation stage started <<<<<<]
+[2025-12-16 01:44:43,778 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:44:43,779 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:44:43,780 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:44:43,780 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:44:43,780 : INFO  : common : created directory at: artifacts/data_validation]
+[2025-12-16 01:44:43,783 : INFO  : main : >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:44:43,783 : INFO  : main : >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-12-16 01:44:43,784 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:44:43,785 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:44:43,785 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:44:43,786 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:44:43,786 : INFO  : common : created directory at: artifacts/data_transformation]
+[2025-12-16 01:44:43,786 : INFO  : main : >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:44:43,786 : INFO  : main : >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-12-16 01:44:43,787 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:44:43,787 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:44:43,788 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:44:43,788 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:44:43,788 : INFO  : common : created directory at: artifacts/model_trainer]
+[2025-12-16 01:44:43,793 : INFO  : main : >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:44:43,793 : INFO  : main : >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-12-16 01:44:43,794 : ERROR  : main : name 'ModelEvaluationTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/main.py", line 59, in <module>
+    data_ingestion = ModelEvaluationTrainingPipeline()
+NameError: name 'ModelEvaluationTrainingPipeline' is not defined
+[2025-12-16 01:47:04,654 : INFO  : main : >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2025-12-16 01:47:04,655 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:47:04,656 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:47:04,657 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:47:04,657 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:47:04,657 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-16 01:47:04,657 : INFO  : data_ingestion : File already exists of path: artifacts/data_ingestion/data.zip]
+[2025-12-16 01:47:04,659 : INFO  : data_ingestion : File extracted at : artifacts/data_ingestion/unziped_data]
+[2025-12-16 01:47:04,659 : INFO  : main : >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+]
+[2025-12-16 01:47:04,659 : INFO  : main : >>>>>> stage Data Validation stage started <<<<<<]
+[2025-12-16 01:47:04,660 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:47:04,661 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:47:04,662 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:47:04,662 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:47:04,662 : INFO  : common : created directory at: artifacts/data_validation]
+[2025-12-16 01:47:04,665 : INFO  : main : >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:47:04,665 : INFO  : main : >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-12-16 01:47:04,667 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:47:04,667 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:47:04,668 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:47:04,668 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:47:04,668 : INFO  : common : created directory at: artifacts/data_transformation]
+[2025-12-16 01:47:04,668 : INFO  : main : >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:47:04,668 : INFO  : main : >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-12-16 01:47:04,669 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:47:04,670 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:47:04,670 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:47:04,671 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:47:04,671 : INFO  : common : created directory at: artifacts/model_trainer]
+[2025-12-16 01:47:04,676 : INFO  : main : >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:47:04,676 : INFO  : main : >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-12-16 01:47:04,678 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:47:04,678 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:47:04,679 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:47:04,679 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:47:04,679 : INFO  : common : created directory at: artifacts/model_evaluation]
+[2025-12-16 01:47:07,477 : INFO  : common : json file saved at: artifacts/model_evaluation/metrics.json]
+[2025-12-16 01:47:11,037 : ERROR  : main : API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/main.py", line 61, in <module>
+    data_ingestion.initiate_model_evaluation()
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/src/datascience/pipeline/model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/src/datascience/components/model_evaluation.py", line 61, in log_into_mlflow
+    mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetModel")
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/venv/lib/python3.10/site-packages/mlflow/sklearn/__init__.py", line 426, in log_model
+    return Model.log(
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/venv/lib/python3.10/site-packages/mlflow/models/model.py", line 1358, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/venv/lib/python3.10/site-packages/mlflow/tracking/_model_registry/fluent.py", line 170, in _register_model
+    raise e
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/venv/lib/python3.10/site-packages/mlflow/tracking/_model_registry/fluent.py", line 159, in _register_model
+    create_model_response = client.create_registered_model(name)
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/venv/lib/python3.10/site-packages/mlflow/tracking/client.py", line 3772, in create_registered_model
+    return self._get_registry_client().create_registered_model(
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/venv/lib/python3.10/site-packages/mlflow/telemetry/track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/venv/lib/python3.10/site-packages/mlflow/tracking/_model_registry/client.py", line 95, in create_registered_model
+    return self.store.create_registered_model(name, tags, description, deployment_job_id)
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/venv/lib/python3.10/site-packages/mlflow/store/model_registry/rest_store.py", line 110, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/venv/lib/python3.10/site-packages/mlflow/store/model_registry/base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/venv/lib/python3.10/site-packages/mlflow/utils/rest_utils.py", line 596, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "/Users/adarshkumar/Projects/Datasci/DataScience_project/venv/lib/python3.10/site-packages/mlflow/utils/rest_utils.py", line 321, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2025-12-16 01:48:50,354 : INFO  : utils : NumExpr defaulting to 8 threads.]
+[2025-12-16 01:50:13,284 : INFO  : main : >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2025-12-16 01:50:13,286 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:50:13,288 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:50:13,289 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:50:13,289 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:50:13,289 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-16 01:50:13,289 : INFO  : data_ingestion : File already exists of path: artifacts/data_ingestion/data.zip]
+[2025-12-16 01:50:13,292 : INFO  : data_ingestion : File extracted at : artifacts/data_ingestion/unziped_data]
+[2025-12-16 01:50:13,292 : INFO  : main : >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+]
+[2025-12-16 01:50:13,292 : INFO  : main : >>>>>> stage Data Validation stage started <<<<<<]
+[2025-12-16 01:50:13,293 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:50:13,294 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:50:13,295 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:50:13,296 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:50:13,296 : INFO  : common : created directory at: artifacts/data_validation]
+[2025-12-16 01:50:13,302 : INFO  : main : >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:50:13,302 : INFO  : main : >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-12-16 01:50:13,303 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:50:13,304 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:50:13,305 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:50:13,305 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:50:13,305 : INFO  : common : created directory at: artifacts/data_transformation]
+[2025-12-16 01:50:13,305 : INFO  : main : >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:50:13,305 : INFO  : main : >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-12-16 01:50:13,307 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:50:13,307 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:50:13,308 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:50:13,308 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:50:13,308 : INFO  : common : created directory at: artifacts/model_trainer]
+[2025-12-16 01:50:13,317 : INFO  : main : >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-12-16 01:50:13,317 : INFO  : main : >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-12-16 01:50:13,318 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 01:50:13,319 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 01:50:13,319 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 01:50:13,320 : INFO  : common : created directory at: artifacts]
+[2025-12-16 01:50:13,320 : INFO  : common : created directory at: artifacts/model_evaluation]
+[2025-12-16 01:50:14,049 : INFO  : common : json file saved at: artifacts/model_evaluation/metrics.json]
+[2025-12-16 01:50:16,871 : WARNING  : model_evaluation : MLflow Model Registry error: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''. Falling back to log_model without registration.]
+[2025-12-16 01:50:18,414 : INFO  : main : >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
