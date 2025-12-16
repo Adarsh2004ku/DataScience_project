@@ -1,2 +1,121 @@
-<h1>{{prediction}} </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+            margin: 0;
+            padding: 0;
+        }
+
+        .result-box {
+            max-width: 800px;
+            margin: 120px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+            overflow:hidden
+        }
+
+        h2 {
+            color: #3a1c71;
+        }
+
+        .prediction-value {
+            font-size: 64px;
+            font-weight: 700;
+            color: #d76d77;
+            margin: 20px 0;
+        }
+
+        .note {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .btn-back {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: #3a1c71;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+
+        .btn-back:hover {
+            background: #d76d77;
+        }
+
+        footer {
+            margin-top: 25px;
+            font-size: 13px;
+            color: #555;
+        }
+
+        footer a {
+            color: #3a1c71;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="result-box">
+    <h2>🍷 Prediction Result</h2>
+
+    <p class="note">Predicted Wine Quality Score</p>
+
+    <div class="prediction-value">
+        {{ prediction }}
+    </div>
+
+
+       <p class="note">
+    Score ranges from <b>0 (Worst)</b> to <b>10 (Excellent)</b>, typically observed in the range of 3 to 8 in the dataset.
+</p>
+
+<div class="quality-guide" style="margin-top: 25px; text-align: left; padding: 0 50px;">
+    <h3 style="color: #3a1c71; margin-bottom: 10px; font-weight: 600; text-align: center;">Quality Score Guide:</h3>
+    <ul>
+        <li style="margin-bottom: 8px;">
+            <b style="color: #cc0000;">0 - 2 (Defective):</b> Indicates extreme defects or spoilage. This is a highly unusual score.
+        </li>
+        <li style="margin-bottom: 8px;">
+            <b style="color: #cc0000;">2 - 4 (Poor):</b> Very low quality. Often indicates chemical or spoilage defects. These are rarely sold.
+        </li>
+        <li style="margin-bottom: 8px;">
+            <b style="color: #ff9900;">4 - 6 (Average):</b> The most common range. Wines are acceptable for regular consumption, but lack complexity and distinct character.
+        </li>
+        <li style="margin-bottom: 8px;">
+            <b style="color: #008000;">6 - 8 (Good):</b> High quality wines. Well-balanced, complex, and enjoyable. These are typically the top tier available for retail.
+        </li>
+        <li style="margin-bottom: 8px;">
+            <b style="color: #0000ff;">8 - 10 (Excellent/Rare):</b> Near-perfect or theoretical scores. Extremely rare and highly regarded wines, often achieved only by expert tasters.
+        </li>
+    </ul>
+</div>
+    </p>
+
+    <a href="/" class="btn-back">🔁 Predict Again</a>
+
+    <footer>
+        Made by <b>Adarsh Kumar</b> |
+        <a href="https://github.com/Adarsh2004ku/DataScience_project" target="_blank">
+            GitHub Repository
+        </a>
+    </footer>
+</div>
+
+</body>
+</html>

@@ -1,120 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      
-    </head>
-    <body>
-       
+<head>
+    <meta charset="UTF-8">
+    <title>Wine Quality Prediction</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
-        <!-- Main Content-->
-        <div class="container px-4 px-lg-5">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+            margin: 0;
+            padding: 0;
+        }
 
-           <!DOCTYPE html>
-<html>
+        .page-content {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
 
-<body class="form-v9">
-	<div class="page-content">
-		<div class="form-v9-content" style="background-image: url('static/assets/img/form-v9.jpg')">
-			<form class="form-detail" action="/predict" method="post">
-				<h2>Please Fill The Information</h2>
-				<div class="form-row-total">
+        .form-v9-content {
+            background: #fff;
+            width: 900px;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+        }
 
-					<div class="form-row">
-                        <label for="fixed_acidity"> Fixed Acidity:</label>
-						<input type="text" name="fixed_acidity" id="fixed_acidity" class="input-text" placeholder="fixed_acidity" required>
-					</div>
+        h2 {
+            text-align: center;
+            color: #3a1c71;
+            margin-bottom: 10px;
+        }
 
-					<div class="form-row">
-                        <label for="volatile_acidity"> Volatile Acidity:</label>
-						<input type="text" name="volatile_acidity" id="volatile_acidity" class="input-text" placeholder="volatile_acidity" required>
-					</div>
+        .subtitle {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 30px;
+        }
 
-				</div>
+        .form-row-total {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
 
+        .form-row {
+            flex: 1;
+        }
 
-				<div class="form-row-total">
+        label {
+            font-weight: 500;
+            margin-bottom: 5px;
+            display: block;
+        }
 
-                    <div class="form-row">
-                        <label for="citric_acid"> Citric Acid:</label>
-						<input type="text" name="citric_acid" id="citric_acid" class="input-text" placeholder="citric_acid" required>
-					</div>
+        input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
 
+        /* Styling for the new range notes */
+        .range-note {
+            font-size: 12px;
+            color: #ff3333; /* Making the range notes stand out with a red color */
+            font-weight: 500;
+            margin-top: 2px;
+            display: block;
+        }
 
-                    <div class="form-row">
-                        <label for="residual_sugar"> Residual Sugar:</label>
-						<input type="text" name="residual_sugar" id="residual_sugar" class="input-text" placeholder="residual_sugar" required>
-					</div>
+        small {
+            font-size: 12px;
+            color: #777;
+        }
 
-				</div>
+        .form-row-last {
+            text-align: center;
+            margin-top: 30px;
+        }
 
+        .register {
+            background: #3a1c71;
+            color: white;
+            padding: 12px 40px;
+            border-radius: 30px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
 
-                <div class="form-row-total">
+        .register:hover {
+            background: #d76d77;
+        }
 
-                    <div class="form-row">
-                        <label for="chlorides"> Chlorides:</label>
-						<input type="text" name="chlorides" id="chlorides" class="input-text" placeholder="chlorides" required>
-					</div>
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 13px;
+            color: #fff;
+        }
 
-                    <div class="form-row">
-                        <label for="free_sulfur_dioxide"> Free Sulfur Dioxide:</label>
-						<input type="text" name="free_sulfur_dioxide" id="free_sulfur_dioxide" class="input-text" placeholder="free_sulfur_dioxide" required>
-					</div>
+        footer a {
+            color: #fff;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+    </style>
+</head>
 
-				</div>
+<body>
+<div class="page-content">
 
+    <div class="form-v9-content">
+        <h2>🍷 Wine Quality Prediction</h2>
+        <p class="subtitle">
+            Predict wine quality using physicochemical properties and Machine Learning.
+        </p>
 
-                <div class="form-row-total">
+        <form action="/predict" method="post">
 
-                    <div class="form-row">
-                        <label for="total_sulfur_dioxide"> Total Sulfur Dioxide:</label>
-						<input type="text" name="total_sulfur_dioxide" id="total_sulfur_dioxide" class="input-text" placeholder="total_sulfur_dioxide" required>
-					</div>
+            <div class="form-row-total">
+                <div class="form-row">
+                    <label>Fixed Acidity (g/dm³)</label>
+                    <input type="number" step="0.01" name="fixed_acidity" required>
+                    <small>Non-volatile acids, mostly Tartaric Acid.</small>
+                    <span class="range-note">Typical Range: 4.6 – 15.9</span>
+                </div>
 
-                    <div class="form-row">
-                        <label for="density"> Density:</label>
-						<input type="text" name="density" id="density" class="input-text" placeholder="density" required>
-					</div>
+                <div class="form-row">
+                    <label>Volatile Acidity (g/dm³)</label>
+                    <input type="number" step="0.01" name="volatile_acidity" required>
+                    <small>High levels can lead to a vinegar taste (Acetic Acid).</small>
+                    <span class="range-note">Typical Range: 0.12 – 1.58</span>
+                </div>
+            </div>
 
-				</div>
+            <div class="form-row-total">
+                <div class="form-row">
+                    <label>Citric Acid (g/dm³)</label>
+                    <input type="number" step="0.01" name="citric_acid" required>
+                    <small>Adds 'freshness' and flavor to wines.</small>
+                    <span class="range-note">Typical Range: 0.0 – 1.00</span>
+                </div>
 
+                <div class="form-row">
+                    <label>Residual Sugar (g/dm³)</label>
+                    <input type="number" step="0.1" name="residual_sugar" required>
+                    <small>Sugar remaining after fermentation. Wines > 45g/L are sweet.</small>
+                    <span class="range-note">Typical Range: 0.9 – 15.5</span>
+                </div>
+            </div>
 
-                <div class="form-row-total">
+            <div class="form-row-total">
+                <div class="form-row">
+                    <label>Chlorides (g/dm³)</label>
+                    <input type="number" step="0.001" name="chlorides" required>
+                    <small>The amount of salt in the wine.</small>
+                    <span class="range-note">Typical Range: 0.012 – 0.611</span>
+                </div>
 
-                    <div class="form-row">
-                        <label for="pH"> pH:</label>
-						<input type="text" name="pH" id="pH" class="input-text" placeholder="pH" required>
-					</div>
+                <div class="form-row">
+                    <label>Free Sulfur Dioxide (mg/dm³)</label>
+                    <input type="number" name="free_sulfur_dioxide" required>
+                    <small>Prevents microbial growth and oxidation.</small>
+                    <span class="range-note">Typical Range: 1 – 72</span>
+                </div>
+            </div>
 
-                    <div class="form-row">
-                        <label for="sulphates"> Sulphates:</label>
-						<input type="text" name="sulphates" id="sulphates" class="input-text" placeholder="sulphates" required>
-					</div>
+            <div class="form-row-total">
+                <div class="form-row">
+                    <label>Total Sulfur Dioxide (mg/dm³)</label>
+                    <input type="number" name="total_sulfur_dioxide" required>
+                    <small>Free + Bound forms of SO₂.</small>
+                    <span class="range-note">Typical Range: 6 – 289</span>
+                </div>
 
-				</div>
+                <div class="form-row">
+                    <label>Density (g/cm³)</label>
+                    <input type="number" step="0.0001" name="density" required>
+                    <small>Typically similar to water, affected by alcohol and sugar.</small>
+                    <span class="range-note">Typical Range: 0.9901 – 1.0037</span>
+                </div>
+            </div>
 
+            <div class="form-row-total">
+                <div class="form-row">
+                    <label>pH</label>
+                    <input type="number" step="0.01" name="pH" required>
+                    <small>Measure of acidity. Red wines are typically between 3.2 – 3.8.</small>
+                    <span class="range-note">Typical Range: 2.74 – 4.01</span>
+                </div>
 
-                <div class="form-row-total">
+                <div class="form-row">
+                    <label>Sulphates (g/dm³)</label>
+                    <input type="number" step="0.01" name="sulphates" required>
+                    <small>Wine additive that acts as an antimicrobial/antioxidant agent.</small>
+                    <span class="range-note">Typical Range: 0.33 – 2.00</span>
+                </div>
+            </div>
 
-                    <div class="form-row">
-                        <label for="alcohol"> Alcohol:</label>
-						<input type="text" name="alcohol" id="alcohol" class="input-text" placeholder="alcohol" required>
-					</div>
+            <div class="form-row-total">
+                <div class="form-row">
+                    <label>Alcohol (%)</label>
+                    <input type="number" step="0.1" name="alcohol" required>
+                    <small>Alcohol By Volume (ABV). Higher alcohol often correlates with higher quality.</small>
+                    <span class="range-note">Typical Range: 8.4 – 14.9</span>
+                </div>
+            </div>
 
+            <div class="form-row-last">
+                <input type="submit" class="register" value="Predict Quality">
+            </div>
+        </form>
+    </div>
 
-				</div>
+    <footer>
+        Made by <b>Adarsh Kumar</b> |
+        <a href="https://github.com/Adarsh2004ku/DataScience_project" target="_blank">
+            View on GitHub
+        </a>
+    </footer>
 
-
-				<div class="form-row-last">
-					<input type="submit" name="register" class="register" value="Predict">
-				</div>
-			</form>
-		</div>
-	</div>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</div>
+</body>
 </html>
-
-        
-
-
-       
