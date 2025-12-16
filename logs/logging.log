@@ -616,3 +616,78 @@ x==========x]
 [2025-12-16 01:50:18,414 : INFO  : main : >>>>>> stage Model evaluation stage completed <<<<<<
 
 x==========x]
+[2025-12-16 13:25:35,940 : INFO  : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.50.246:8080]
+[2025-12-16 13:25:35,940 : INFO  : _internal : [33mPress CTRL+C to quit[0m]
+[2025-12-16 13:25:43,502 : INFO  : _internal : 127.0.0.1 - - [16/Dec/2025 13:25:43] "GET / HTTP/1.1" 200 -]
+[2025-12-16 13:25:43,597 : INFO  : _internal : 127.0.0.1 - - [16/Dec/2025 13:25:43] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-12-16 13:25:43,964 : INFO  : _internal : 127.0.0.1 - - [16/Dec/2025 13:25:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-12-16 13:26:00,401 : INFO  : _internal : 127.0.0.1 - - [16/Dec/2025 13:26:00] "POST /predict HTTP/1.1" 200 -]
+[2025-12-16 13:27:10,639 : INFO  : main : >>>>>> Stage Data Ingestion Stage started <<<<<<]
+[2025-12-16 13:27:10,641 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 13:27:10,644 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 13:27:10,646 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 13:27:10,647 : INFO  : common : created directory at: artifacts]
+[2025-12-16 13:27:10,647 : INFO  : common : created directory at: artifacts/data_ingestion]
+[2025-12-16 13:27:10,648 : INFO  : data_ingestion : File already exists of path: artifacts/data_ingestion/data.zip]
+[2025-12-16 13:27:10,650 : INFO  : data_ingestion : File extracted at : artifacts/data_ingestion/unziped_data]
+[2025-12-16 13:27:10,651 : INFO  : main : >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+]
+[2025-12-16 13:27:10,651 : INFO  : main : >>>>>> stage Data Validation stage started <<<<<<]
+[2025-12-16 13:27:10,654 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 13:27:10,654 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 13:27:10,656 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 13:27:10,656 : INFO  : common : created directory at: artifacts]
+[2025-12-16 13:27:10,656 : INFO  : common : created directory at: artifacts/data_validation]
+[2025-12-16 13:27:10,670 : INFO  : main : >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-12-16 13:27:10,670 : INFO  : main : >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-12-16 13:27:10,672 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 13:27:10,672 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 13:27:10,673 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 13:27:10,673 : INFO  : common : created directory at: artifacts]
+[2025-12-16 13:27:10,673 : INFO  : common : created directory at: artifacts/data_transformation]
+[2025-12-16 13:27:10,673 : INFO  : main : >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-12-16 13:27:10,673 : INFO  : main : >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-12-16 13:27:10,675 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 13:27:10,676 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 13:27:10,677 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 13:27:10,677 : INFO  : common : created directory at: artifacts]
+[2025-12-16 13:27:10,677 : INFO  : common : created directory at: artifacts/model_trainer]
+[2025-12-16 13:27:10,692 : INFO  : main : >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-12-16 13:27:10,692 : INFO  : main : >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-12-16 13:27:10,696 : INFO  : common : yaml file: config/config.yaml loaded successfully]
+[2025-12-16 13:27:10,697 : INFO  : common : yaml file: params.yaml loaded successfully]
+[2025-12-16 13:27:10,699 : INFO  : common : yaml file: schema.yaml loaded successfully]
+[2025-12-16 13:27:10,699 : INFO  : common : created directory at: artifacts]
+[2025-12-16 13:27:10,700 : INFO  : common : created directory at: artifacts/model_evaluation]
+[2025-12-16 13:27:11,677 : INFO  : common : json file saved at: artifacts/model_evaluation/metrics.json]
+[2025-12-16 13:27:16,984 : WARNING  : model_evaluation : MLflow Model Registry error: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''. Falling back to log_model without registration.]
+[2025-12-16 13:27:19,265 : INFO  : main : >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2025-12-16 13:27:19,653 : INFO  : _internal : 127.0.0.1 - - [16/Dec/2025 13:27:19] "GET /train HTTP/1.1" 200 -]
+[2025-12-16 13:27:47,270 : INFO  : _internal : 127.0.0.1 - - [16/Dec/2025 13:27:47] "GET / HTTP/1.1" 200 -]
+[2025-12-16 13:27:47,295 : INFO  : _internal : 127.0.0.1 - - [16/Dec/2025 13:27:47] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-12-16 13:28:04,157 : INFO  : _internal : 127.0.0.1 - - [16/Dec/2025 13:28:04] "POST /predict HTTP/1.1" 200 -]
+[2025-12-16 13:28:10,184 : INFO  : _internal : 127.0.0.1 - - [16/Dec/2025 13:28:10] "POST /predict HTTP/1.1" 200 -]
+[2025-12-16 13:29:39,802 : INFO  : utils : NumExpr defaulting to 8 threads.]
+[2025-12-16 13:32:07,248 : INFO  : utils : NumExpr defaulting to 8 threads.]
+[2025-12-16 13:32:55,769 : INFO  : utils : NumExpr defaulting to 8 threads.]
+[2025-12-16 13:35:02,895 : INFO  : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.20.50.246:8080]
+[2025-12-16 13:35:02,895 : INFO  : _internal : [33mPress CTRL+C to quit[0m]
+[2025-12-16 13:35:12,632 : INFO  : _internal : 10.20.50.246 - - [16/Dec/2025 13:35:12] "GET / HTTP/1.1" 200 -]
+[2025-12-16 13:35:12,664 : INFO  : _internal : 10.20.50.246 - - [16/Dec/2025 13:35:12] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-12-16 13:35:13,012 : INFO  : _internal : 10.20.50.246 - - [16/Dec/2025 13:35:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-12-16 13:35:46,791 : INFO  : _internal : 10.20.50.246 - - [16/Dec/2025 13:35:46] "POST /predict HTTP/1.1" 200 -]
